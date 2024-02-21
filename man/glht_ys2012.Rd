@@ -59,6 +59,6 @@ glht_ys2012(Y,X,C)
 
 }
 \references{
-\insertRef{yamada2012test}{HDnra}
+\insertRef{yamada2012test}{HDNRA}
 }
 \concept{glht}

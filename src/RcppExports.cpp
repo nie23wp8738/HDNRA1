@@ -13,7 +13,7 @@ Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
 
 // ts_bs1996_cpp
 double ts_bs1996_cpp(const arma::mat& y1, const arma::mat& y2);
-RcppExport SEXP _HDnra_ts_bs1996_cpp(SEXP y1SEXP, SEXP y2SEXP) {
+RcppExport SEXP _HDNRA_ts_bs1996_cpp(SEXP y1SEXP, SEXP y2SEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -25,7 +25,7 @@ END_RCPP
 }
 // tsbf_cq2010_cpp
 arma::vec tsbf_cq2010_cpp(const arma::mat& y1, const arma::mat& y2);
-RcppExport SEXP _HDnra_tsbf_cq2010_cpp(SEXP y1SEXP, SEXP y2SEXP) {
+RcppExport SEXP _HDNRA_tsbf_cq2010_cpp(SEXP y1SEXP, SEXP y2SEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -37,7 +37,7 @@ END_RCPP
 }
 // ts_zgzc2020_cpp
 arma::vec ts_zgzc2020_cpp(const arma::mat& y1, const arma::mat& y2);
-RcppExport SEXP _HDnra_ts_zgzc2020_cpp(SEXP y1SEXP, SEXP y2SEXP) {
+RcppExport SEXP _HDNRA_ts_zgzc2020_cpp(SEXP y1SEXP, SEXP y2SEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -49,7 +49,7 @@ END_RCPP
 }
 // tsbf_zzgz2021_cpp
 arma::vec tsbf_zzgz2021_cpp(const arma::mat& y1, const arma::mat& y2);
-RcppExport SEXP _HDnra_tsbf_zzgz2021_cpp(SEXP y1SEXP, SEXP y2SEXP) {
+RcppExport SEXP _HDNRA_tsbf_zzgz2021_cpp(SEXP y1SEXP, SEXP y2SEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -61,7 +61,7 @@ END_RCPP
 }
 // ts_zz2022_cpp
 arma::vec ts_zz2022_cpp(const arma::mat& y1, const arma::mat& y2);
-RcppExport SEXP _HDnra_ts_zz2022_cpp(SEXP y1SEXP, SEXP y2SEXP) {
+RcppExport SEXP _HDNRA_ts_zz2022_cpp(SEXP y1SEXP, SEXP y2SEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -73,7 +73,7 @@ END_RCPP
 }
 // tsbf_zz2022_cpp
 arma::vec tsbf_zz2022_cpp(const arma::mat& y1, const arma::mat& y2);
-RcppExport SEXP _HDnra_tsbf_zz2022_cpp(SEXP y1SEXP, SEXP y2SEXP) {
+RcppExport SEXP _HDNRA_tsbf_zz2022_cpp(SEXP y1SEXP, SEXP y2SEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -85,7 +85,7 @@ END_RCPP
 }
 // tsbf_zwz2023_cpp
 arma::vec tsbf_zwz2023_cpp(const arma::mat& y1, const arma::mat& y2);
-RcppExport SEXP _HDnra_tsbf_zwz2023_cpp(SEXP y1SEXP, SEXP y2SEXP) {
+RcppExport SEXP _HDNRA_tsbf_zwz2023_cpp(SEXP y1SEXP, SEXP y2SEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -97,7 +97,7 @@ END_RCPP
 }
 // ts_sd2008_cpp
 arma::vec ts_sd2008_cpp(const arma::mat& y1, const arma::mat& y2);
-RcppExport SEXP _HDnra_ts_sd2008_cpp(SEXP y1SEXP, SEXP y2SEXP) {
+RcppExport SEXP _HDNRA_ts_sd2008_cpp(SEXP y1SEXP, SEXP y2SEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -109,7 +109,7 @@ END_RCPP
 }
 // tsbf_skk2013_cpp
 arma::vec tsbf_skk2013_cpp(const arma::mat& y1, const arma::mat& y2);
-RcppExport SEXP _HDnra_tsbf_skk2013_cpp(SEXP y1SEXP, SEXP y2SEXP) {
+RcppExport SEXP _HDNRA_tsbf_skk2013_cpp(SEXP y1SEXP, SEXP y2SEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -121,7 +121,7 @@ END_RCPP
 }
 // ts_zzz2020_cpp
 arma::vec ts_zzz2020_cpp(const arma::mat& y1, const arma::mat& y2);
-RcppExport SEXP _HDnra_ts_zzz2020_cpp(SEXP y1SEXP, SEXP y2SEXP) {
+RcppExport SEXP _HDNRA_ts_zzz2020_cpp(SEXP y1SEXP, SEXP y2SEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -133,7 +133,7 @@ END_RCPP
 }
 // tsbf_zzz2023_cpp
 arma::vec tsbf_zzz2023_cpp(const arma::mat& y1, const arma::mat& y2);
-RcppExport SEXP _HDnra_tsbf_zzz2023_cpp(SEXP y1SEXP, SEXP y2SEXP) {
+RcppExport SEXP _HDNRA_tsbf_zzz2023_cpp(SEXP y1SEXP, SEXP y2SEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -145,7 +145,7 @@ END_RCPP
 }
 // ks_s2007_cpp
 arma::vec ks_s2007_cpp(List Y, const arma::vec& n, int p);
-RcppExport SEXP _HDnra_ks_s2007_cpp(SEXP YSEXP, SEXP nSEXP, SEXP pSEXP) {
+RcppExport SEXP _HDNRA_ks_s2007_cpp(SEXP YSEXP, SEXP nSEXP, SEXP pSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -158,7 +158,7 @@ END_RCPP
 }
 // glht_fhw2004_cpp
 double glht_fhw2004_cpp(const arma::mat& Y, const arma::mat& X, const arma::mat& C);
-RcppExport SEXP _HDnra_glht_fhw2004_cpp(SEXP YSEXP, SEXP XSEXP, SEXP CSEXP) {
+RcppExport SEXP _HDNRA_glht_fhw2004_cpp(SEXP YSEXP, SEXP XSEXP, SEXP CSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -171,7 +171,7 @@ END_RCPP
 }
 // glht_sf2006_cpp
 double glht_sf2006_cpp(const arma::mat& Y, const arma::mat& X, const arma::mat& C);
-RcppExport SEXP _HDnra_glht_sf2006_cpp(SEXP YSEXP, SEXP XSEXP, SEXP CSEXP) {
+RcppExport SEXP _HDNRA_glht_sf2006_cpp(SEXP YSEXP, SEXP XSEXP, SEXP CSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -184,7 +184,7 @@ END_RCPP
 }
 // glht_ys2012_cpp
 arma::vec glht_ys2012_cpp(const arma::mat& Y, const arma::mat& X, const arma::mat& C);
-RcppExport SEXP _HDnra_glht_ys2012_cpp(SEXP YSEXP, SEXP XSEXP, SEXP CSEXP) {
+RcppExport SEXP _HDNRA_glht_ys2012_cpp(SEXP YSEXP, SEXP XSEXP, SEXP CSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -197,7 +197,7 @@ END_RCPP
 }
 // glhtbf_zgz2017_cpp
 arma::vec glhtbf_zgz2017_cpp(List Y, const arma::mat& tG, const arma::vec& n, int p);
-RcppExport SEXP _HDnra_glhtbf_zgz2017_cpp(SEXP YSEXP, SEXP tGSEXP, SEXP nSEXP, SEXP pSEXP) {
+RcppExport SEXP _HDNRA_glhtbf_zgz2017_cpp(SEXP YSEXP, SEXP tGSEXP, SEXP nSEXP, SEXP pSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -211,7 +211,7 @@ END_RCPP
 }
 // glht_zgz2017_cpp
 arma::vec glht_zgz2017_cpp(List Y, const arma::mat& tG, const arma::vec& n, int p);
-RcppExport SEXP _HDnra_glht_zgz2017_cpp(SEXP YSEXP, SEXP tGSEXP, SEXP nSEXP, SEXP pSEXP) {
+RcppExport SEXP _HDNRA_glht_zgz2017_cpp(SEXP YSEXP, SEXP tGSEXP, SEXP nSEXP, SEXP pSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -225,7 +225,7 @@ END_RCPP
 }
 // glhtbf_zzg2022_cpp
 arma::vec glhtbf_zzg2022_cpp(List Y, const arma::mat& tG, const arma::vec& n, int p);
-RcppExport SEXP _HDnra_glhtbf_zzg2022_cpp(SEXP YSEXP, SEXP tGSEXP, SEXP nSEXP, SEXP pSEXP) {
+RcppExport SEXP _HDNRA_glhtbf_zzg2022_cpp(SEXP YSEXP, SEXP tGSEXP, SEXP nSEXP, SEXP pSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -239,7 +239,7 @@ END_RCPP
 }
 // glht_zz2022_cpp
 arma::vec glht_zz2022_cpp(List Y, const arma::mat& tG, const arma::vec& n, int p);
-RcppExport SEXP _HDnra_glht_zz2022_cpp(SEXP YSEXP, SEXP tGSEXP, SEXP nSEXP, SEXP pSEXP) {
+RcppExport SEXP _HDNRA_glht_zz2022_cpp(SEXP YSEXP, SEXP tGSEXP, SEXP nSEXP, SEXP pSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -253,7 +253,7 @@ END_RCPP
 }
 // glhtbf_zz2022_cpp
 arma::vec glhtbf_zz2022_cpp(List Y, const arma::mat& tG, const arma::vec& n, int p);
-RcppExport SEXP _HDnra_glhtbf_zz2022_cpp(SEXP YSEXP, SEXP tGSEXP, SEXP nSEXP, SEXP pSEXP) {
+RcppExport SEXP _HDNRA_glhtbf_zz2022_cpp(SEXP YSEXP, SEXP tGSEXP, SEXP nSEXP, SEXP pSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -267,7 +267,7 @@ END_RCPP
 }
 // glht_zzz2022_cpp
 arma::vec glht_zzz2022_cpp(const arma::mat& Y, const arma::mat& X, const arma::mat& C);
-RcppExport SEXP _HDnra_glht_zzz2022_cpp(SEXP YSEXP, SEXP XSEXP, SEXP CSEXP) {
+RcppExport SEXP _HDNRA_glht_zzz2022_cpp(SEXP YSEXP, SEXP XSEXP, SEXP CSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -280,31 +280,31 @@ END_RCPP
 }
 
 static const R_CallMethodDef CallEntries[] = {
-    {"_HDnra_ts_bs1996_cpp", (DL_FUNC) &_HDnra_ts_bs1996_cpp, 2},
-    {"_HDnra_tsbf_cq2010_cpp", (DL_FUNC) &_HDnra_tsbf_cq2010_cpp, 2},
-    {"_HDnra_ts_zgzc2020_cpp", (DL_FUNC) &_HDnra_ts_zgzc2020_cpp, 2},
-    {"_HDnra_tsbf_zzgz2021_cpp", (DL_FUNC) &_HDnra_tsbf_zzgz2021_cpp, 2},
-    {"_HDnra_ts_zz2022_cpp", (DL_FUNC) &_HDnra_ts_zz2022_cpp, 2},
-    {"_HDnra_tsbf_zz2022_cpp", (DL_FUNC) &_HDnra_tsbf_zz2022_cpp, 2},
-    {"_HDnra_tsbf_zwz2023_cpp", (DL_FUNC) &_HDnra_tsbf_zwz2023_cpp, 2},
-    {"_HDnra_ts_sd2008_cpp", (DL_FUNC) &_HDnra_ts_sd2008_cpp, 2},
-    {"_HDnra_tsbf_skk2013_cpp", (DL_FUNC) &_HDnra_tsbf_skk2013_cpp, 2},
-    {"_HDnra_ts_zzz2020_cpp", (DL_FUNC) &_HDnra_ts_zzz2020_cpp, 2},
-    {"_HDnra_tsbf_zzz2023_cpp", (DL_FUNC) &_HDnra_tsbf_zzz2023_cpp, 2},
-    {"_HDnra_ks_s2007_cpp", (DL_FUNC) &_HDnra_ks_s2007_cpp, 3},
-    {"_HDnra_glht_fhw2004_cpp", (DL_FUNC) &_HDnra_glht_fhw2004_cpp, 3},
-    {"_HDnra_glht_sf2006_cpp", (DL_FUNC) &_HDnra_glht_sf2006_cpp, 3},
-    {"_HDnra_glht_ys2012_cpp", (DL_FUNC) &_HDnra_glht_ys2012_cpp, 3},
-    {"_HDnra_glhtbf_zgz2017_cpp", (DL_FUNC) &_HDnra_glhtbf_zgz2017_cpp, 4},
-    {"_HDnra_glht_zgz2017_cpp", (DL_FUNC) &_HDnra_glht_zgz2017_cpp, 4},
-    {"_HDnra_glhtbf_zzg2022_cpp", (DL_FUNC) &_HDnra_glhtbf_zzg2022_cpp, 4},
-    {"_HDnra_glht_zz2022_cpp", (DL_FUNC) &_HDnra_glht_zz2022_cpp, 4},
-    {"_HDnra_glhtbf_zz2022_cpp", (DL_FUNC) &_HDnra_glhtbf_zz2022_cpp, 4},
-    {"_HDnra_glht_zzz2022_cpp", (DL_FUNC) &_HDnra_glht_zzz2022_cpp, 3},
+    {"_HDNRA_ts_bs1996_cpp", (DL_FUNC) &_HDNRA_ts_bs1996_cpp, 2},
+    {"_HDNRA_tsbf_cq2010_cpp", (DL_FUNC) &_HDNRA_tsbf_cq2010_cpp, 2},
+    {"_HDNRA_ts_zgzc2020_cpp", (DL_FUNC) &_HDNRA_ts_zgzc2020_cpp, 2},
+    {"_HDNRA_tsbf_zzgz2021_cpp", (DL_FUNC) &_HDNRA_tsbf_zzgz2021_cpp, 2},
+    {"_HDNRA_ts_zz2022_cpp", (DL_FUNC) &_HDNRA_ts_zz2022_cpp, 2},
+    {"_HDNRA_tsbf_zz2022_cpp", (DL_FUNC) &_HDNRA_tsbf_zz2022_cpp, 2},
+    {"_HDNRA_tsbf_zwz2023_cpp", (DL_FUNC) &_HDNRA_tsbf_zwz2023_cpp, 2},
+    {"_HDNRA_ts_sd2008_cpp", (DL_FUNC) &_HDNRA_ts_sd2008_cpp, 2},
+    {"_HDNRA_tsbf_skk2013_cpp", (DL_FUNC) &_HDNRA_tsbf_skk2013_cpp, 2},
+    {"_HDNRA_ts_zzz2020_cpp", (DL_FUNC) &_HDNRA_ts_zzz2020_cpp, 2},
+    {"_HDNRA_tsbf_zzz2023_cpp", (DL_FUNC) &_HDNRA_tsbf_zzz2023_cpp, 2},
+    {"_HDNRA_ks_s2007_cpp", (DL_FUNC) &_HDNRA_ks_s2007_cpp, 3},
+    {"_HDNRA_glht_fhw2004_cpp", (DL_FUNC) &_HDNRA_glht_fhw2004_cpp, 3},
+    {"_HDNRA_glht_sf2006_cpp", (DL_FUNC) &_HDNRA_glht_sf2006_cpp, 3},
+    {"_HDNRA_glht_ys2012_cpp", (DL_FUNC) &_HDNRA_glht_ys2012_cpp, 3},
+    {"_HDNRA_glhtbf_zgz2017_cpp", (DL_FUNC) &_HDNRA_glhtbf_zgz2017_cpp, 4},
+    {"_HDNRA_glht_zgz2017_cpp", (DL_FUNC) &_HDNRA_glht_zgz2017_cpp, 4},
+    {"_HDNRA_glhtbf_zzg2022_cpp", (DL_FUNC) &_HDNRA_glhtbf_zzg2022_cpp, 4},
+    {"_HDNRA_glht_zz2022_cpp", (DL_FUNC) &_HDNRA_glht_zz2022_cpp, 4},
+    {"_HDNRA_glhtbf_zz2022_cpp", (DL_FUNC) &_HDNRA_glhtbf_zz2022_cpp, 4},
+    {"_HDNRA_glht_zzz2022_cpp", (DL_FUNC) &_HDNRA_glht_zzz2022_cpp, 3},
     {NULL, NULL, 0}
 };
 
-RcppExport void R_init_HDnra(DllInfo *dll) {
+RcppExport void R_init_HDNRA(DllInfo *dll) {
     R_registerRoutines(dll, NULL, CallEntries, NULL, NULL);
     R_useDynamicSymbols(dll, FALSE);
 }

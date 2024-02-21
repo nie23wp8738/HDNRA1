@@ -68,6 +68,6 @@ glhtbf_zzg2022(Y, G, n, p)
 
 }
 \references{
-\insertRef{zhang2022linear}{HDnra}
+\insertRef{zhang2022linear}{HDNRA}
 }
 \concept{nraglht}

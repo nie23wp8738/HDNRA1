@@ -20,7 +20,7 @@
 #'
 
 #' @references
-#' \insertRef{zhang2022further}{HDnra}
+#' \insertRef{zhang2022further}{HDNRA}
 #'
 #'
 #' @return A  (list) object of  \code{S3} class \code{htest}  containing the following elements:

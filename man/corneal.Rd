@@ -3,7 +3,7 @@
 \docType{data}
 \name{corneal}
 \alias{corneal}
-\title{HDnra_data corneal}
+\title{HDNRA_data corneal}
 \format{
 \subsection{'corneal'}{
 
@@ -23,7 +23,7 @@ data(corneal)
 This dataset was acquired during a keratoconus study, a collaborative project involving Ms.Nancy Tripoli and Dr.Kenneth L.Cohen of Department of Ophthalmology at the University of North Carolina, Chapel Hill. The fitted feature vectors for the complete corneal surface dataset collectively into a feature matrix with dimensions of 150 × 2000.
 }
 \examples{
-library(HDnra)
+library(HDNRA)
 data(corneal)
 dim(corneal)
 group1 <- as.matrix(corneal[1:43, ])
@@ -36,7 +36,7 @@ group4 <- as.matrix(corneal[79:150, ])
 dim(group4)
 }
 \references{
-\insertRef{smaga2019linear}{HDnra}
+\insertRef{smaga2019linear}{HDNRA}
 }
 \concept{data}
 \keyword{datasets}

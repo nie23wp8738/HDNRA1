@@ -54,6 +54,6 @@ ts_sd2008(y1, y2)
 
 }
 \references{
-\insertRef{Srivastava_2008}{HDnra}
+\insertRef{Srivastava_2008}{HDNRA}
 }
 \concept{ts}

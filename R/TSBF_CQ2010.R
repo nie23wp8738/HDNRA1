@@ -18,7 +18,7 @@
 #'  They showed that under the null hypothesis, \eqn{T_{CQ}} is asymptotically normally distributed.
 #'
 #' @references
-#' \insertRef{Chen_2010}{HDnra}
+#' \insertRef{Chen_2010}{HDNRA}
 #'
 #' @return A  (list) object of  \code{S3} class \code{htest}  containing the following elements:
 #' \describe{

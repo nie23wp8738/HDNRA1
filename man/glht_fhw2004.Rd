@@ -59,6 +59,6 @@ C <- cbind(diag(q),-rep(1,q))
 glht_fhw2004(Y,X,C)
 }
 \references{
-\insertRef{fujikoshi_2004_asymptotic}{HDnra}
+\insertRef{fujikoshi_2004_asymptotic}{HDNRA}
 }
 \concept{glht}

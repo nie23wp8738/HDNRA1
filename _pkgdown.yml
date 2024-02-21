@@ -16,7 +16,7 @@ navbar:
       href: news/index.html
   right:
     - icon: fa-github
-      href: https://github.com/nie23wp8738/NRAHDLTP
+      href: https://github.com/nie23wp8738/HDNRA
 
 reference:
   - title: "[0] Data Sets"

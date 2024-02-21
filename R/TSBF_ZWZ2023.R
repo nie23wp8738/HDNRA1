@@ -20,7 +20,7 @@
 #' They showed that under the null hypothesis, \eqn{T_{ZWZ}} and an F-type mixture have the same normal or non-normal limiting distribution.
 
 #' @references
-#' \insertRef{zhu2022two}{HDnra}
+#' \insertRef{zhu2022two}{HDNRA}
 #'
 #' @return A  (list) object of  \code{S3} class \code{htest}  containing the following elements:
 #' \describe{

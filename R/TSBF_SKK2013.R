@@ -20,7 +20,7 @@
 #'
 #'
 #' @references
-#' \insertRef{Srivastava_2013}{HDnra}
+#' \insertRef{Srivastava_2013}{HDNRA}
 #'
 #' @return A  (list) object of  \code{S3} class \code{htest}  containing the following elements:
 #' \describe{

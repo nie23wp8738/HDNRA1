@@ -24,7 +24,7 @@
 
 #'
 #' @references
-#' \insertRef{yamada2012test}{HDnra}
+#' \insertRef{yamada2012test}{HDNRA}
 #'
 #' @return A  (list) object of  \code{S3} class \code{htest}  containing the following elements:
 #' \describe{

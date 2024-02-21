@@ -22,7 +22,7 @@
 #' They showed that under the null hypothesis, \eqn{T_{SF}} is asymptotically normally distributed.
 
 #' @references
-#' \insertRef{srivastava2006multivariate}{HDnra}
+#' \insertRef{srivastava2006multivariate}{HDNRA}
 #'
 #'
 #' @return A  (list) object of  \code{S3} class \code{htest}  containing the following elements:

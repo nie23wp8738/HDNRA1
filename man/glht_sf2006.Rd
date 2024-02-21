@@ -60,6 +60,6 @@ glht_sf2006(Y,X,C)
 
 }
 \references{
-\insertRef{srivastava2006multivariate}{HDnra}
+\insertRef{srivastava2006multivariate}{HDNRA}
 }
 \concept{glht}

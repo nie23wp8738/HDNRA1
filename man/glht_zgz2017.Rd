@@ -66,6 +66,6 @@ G <- cbind(diag(k - 1), rep(-1, k - 1))
 glht_zgz2017(Y, G, n, p)
 }
 \references{
-\insertRef{Zhang_2017}{NRAHDLTP}
+\insertRef{Zhang_2017}{HDnra}
 }
 \concept{nraglht}

@@ -21,7 +21,7 @@
 
 #'
 #' @references
-#' \insertRef{Srivastava_2008}{NRAHDLTP}
+#' \insertRef{Srivastava_2008}{HDnra}
 #'
 #' @return A  (list) object of  \code{S3} class \code{htest}  containing the following elements:
 #' \describe{

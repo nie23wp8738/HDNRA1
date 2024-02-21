@@ -18,7 +18,7 @@
 
 #'
 #' @references
-#' \insertRef{zhang2022revisit}{NRAHDLTP}
+#' \insertRef{zhang2022revisit}{HDnra}
 #'
 #' @return A  (list) object of  \code{S3} class \code{htest}  containing the following elements:
 #' \describe{

@@ -20,7 +20,7 @@
 #'
 
 #' @references
-#' \insertRef{Zhang_2020}{NRAHDLTP}
+#' \insertRef{Zhang_2020}{HDnra}
 #'
 #' @return A  (list) object of  \code{S3} class \code{htest}  containing the following elements:
 #' \describe{

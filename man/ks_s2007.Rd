@@ -57,6 +57,6 @@ ks_s2007(Y, n, p)
 
 }
 \references{
-\insertRef{schott2007some}{NRAHDLTP}
+\insertRef{schott2007some}{HDnra}
 }
 \concept{glht}

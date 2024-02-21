@@ -11,7 +11,7 @@
 #' @importFrom Rdpack reprompt
 
 ## usethis namespace: start
-#' @useDynLib NRAHDLTP, .registration = TRUE
+#' @useDynLib HDnra, .registration = TRUE
 ## usethis namespace: end
 NULL
 

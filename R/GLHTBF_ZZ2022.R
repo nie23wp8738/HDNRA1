@@ -27,7 +27,7 @@
 #'
 #'
 #' @references
-#' \insertRef{Zhang_2022heteroscedastic}{NRAHDLTP}
+#' \insertRef{Zhang_2022heteroscedastic}{HDnra}
 #'
 #' @return A  (list) object of  \code{S3} class \code{htest}  containing the following elements:
 #' \describe{

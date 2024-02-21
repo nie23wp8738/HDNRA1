@@ -3,7 +3,7 @@
 \docType{data}
 \name{COVID19}
 \alias{COVID19}
-\title{NRAHDLTP_data COVID19}
+\title{HDnra_data COVID19}
 \format{
 \subsection{'COVID19'}{
 
@@ -21,7 +21,7 @@ data(COVID19)
 A COVID19 data set from NCBI with ID GSE152641. The data set profiled peripheral blood from 24 healthy controls and 62 prospectively enrolled patients with community-acquired lower respiratory tract infection by SARS-COV-2 within the first 24 hours of hospital admission using RNA sequencing.
 }
 \examples{
-library(NRAHDLTP)
+library(HDnra)
 data(COVID19)
 dim(COVID19)
 group1 <- as.matrix(COVID19[c(2:19, 82:87), ])
@@ -30,7 +30,7 @@ group2 <- as.matrix(COVID19[-c(1:19, 82:87), ])
 dim(group2)
 }
 \references{
-\insertRef{thair2021transcriptomic}{NRAHDLTP}
+\insertRef{thair2021transcriptomic}{HDnra}
 }
 \concept{data}
 \keyword{datasets}

@@ -55,6 +55,6 @@ ts_zgzc2020(y1, y2)
 
 }
 \references{
-\insertRef{zhang2020simple}{NRAHDLTP}
+\insertRef{zhang2020simple}{HDnra}
 }
 \concept{nrats}

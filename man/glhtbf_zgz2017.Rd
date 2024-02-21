@@ -68,6 +68,6 @@ glhtbf_zgz2017(Y, G, n, p)
 
 }
 \references{
-\insertRef{zhou2017high}{NRAHDLTP}
+\insertRef{zhou2017high}{HDnra}
 }
 \concept{glht}

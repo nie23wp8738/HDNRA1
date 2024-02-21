@@ -24,7 +24,7 @@
 
 
 #' @references
-#' \insertRef{fujikoshi_2004_asymptotic}{NRAHDLTP}
+#' \insertRef{fujikoshi_2004_asymptotic}{HDnra}
 #'
 #' @return A  (list) object of  \code{S3} class \code{htest}  containing the following elements:
 #' \describe{

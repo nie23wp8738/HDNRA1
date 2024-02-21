@@ -22,7 +22,7 @@
 #' They showed that under the null hypothesis, \eqn{T_{ZZZ}} and a chi-squared-type mixture have the same limiting distribution.
 
 #' @references
-#' \insertRef{Zhu_2023}{NRAHDLTP}
+#' \insertRef{Zhu_2023}{HDnra}
 #'
 #' @return A  (list) object of  \code{S3} class \code{htest}  containing the following elements:
 #' \describe{

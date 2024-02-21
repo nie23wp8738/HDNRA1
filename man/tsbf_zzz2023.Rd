@@ -64,6 +64,6 @@ tsbf_zzz2023(y1,y2,cutoff=1.2)
 
 }
 \references{
-\insertRef{zhang2023two}{NRAHDLTP}
+\insertRef{zhang2023two}{HDnra}
 }
 \concept{nrats}

@@ -21,7 +21,7 @@
 #
 
 #' @references
-#' \insertRef{bai1996effect}{NRAHDLTP}
+#' \insertRef{bai1996effect}{HDnra}
 #'
 #' @return A  (list) object of  \code{S3} class \code{htest}  containing the following elements:
 #' \describe{

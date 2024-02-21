@@ -64,6 +64,6 @@ tsbf_zz2022(y1, y2)
 
 }
 \references{
-\insertRef{zhang2022further}{NRAHDLTP}
+\insertRef{zhang2022further}{HDnra}
 }
 \concept{nrats}

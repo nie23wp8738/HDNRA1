@@ -53,6 +53,6 @@ ts_bs1996(y1, y2)
 
 }
 \references{
-\insertRef{bai1996effect}{NRAHDLTP}
+\insertRef{bai1996effect}{HDnra}
 }
 \concept{ts}

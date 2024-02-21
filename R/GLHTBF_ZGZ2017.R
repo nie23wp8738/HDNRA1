@@ -30,7 +30,7 @@
 #
 
 #' @references
-#' \insertRef{zhou2017high}{NRAHDLTP}
+#' \insertRef{zhou2017high}{HDnra}
 #'
 #'
 #' @return A  (list) object of  \code{S3} class \code{htest}  containing the following elements:

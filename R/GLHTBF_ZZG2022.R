@@ -25,7 +25,7 @@
 #' They showed that under the null hypothesis, \eqn{T_{ZZG}} and a chi-squared-type mixture have the same normal or non-normal limiting distribution.
 #
 #' @references
-#' \insertRef{zhang2022linear}{NRAHDLTP}
+#' \insertRef{zhang2022linear}{HDnra}
 #'
 #' @return A  (list) object of  \code{S3} class \code{htest}  containing the following elements:
 #' \describe{

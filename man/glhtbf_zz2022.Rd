@@ -69,6 +69,6 @@ glhtbf_zz2022(Y, G, n, p)
 
 }
 \references{
-\insertRef{Zhang_2022heteroscedastic}{NRAHDLTP}
+\insertRef{Zhang_2022heteroscedastic}{HDnra}
 }
 \concept{nraglht}

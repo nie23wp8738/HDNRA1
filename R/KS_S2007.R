@@ -22,7 +22,7 @@
 #' They showed that under the null hypothesis, \eqn{T_{S}} is asymptotically normally distributed.
 #'
 #' @references
-#' \insertRef{schott2007some}{NRAHDLTP}
+#' \insertRef{schott2007some}{HDnra}
 #'
 #' @return A  (list) object of  \code{S3} class \code{htest}  containing the following elements:
 #' \describe{

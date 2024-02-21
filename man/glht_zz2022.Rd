@@ -67,6 +67,6 @@ glht_zz2022(Y, G, n, p)
 
 }
 \references{
-\insertRef{zhu2022linear}{NRAHDLTP}
+\insertRef{zhu2022linear}{HDnra}
 }
 \concept{nraglht}

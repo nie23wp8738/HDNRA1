@@ -1,4 +1,4 @@
-#' @title NRAHDLTP_data corneal
+#' @title HDnra_data corneal
 #' @description
 #' This dataset was acquired during a keratoconus study, a collaborative project involving Ms.Nancy Tripoli and Dr.Kenneth L.Cohen of Department of Ophthalmology at the University of North Carolina, Chapel Hill. The fitted feature vectors for the complete corneal surface dataset collectively into a feature matrix with dimensions of 150 × 2000.
 #'
@@ -15,11 +15,11 @@
 #' \item{ clinical keratoconus group4}{row 79 to row 150 in total 72 of the feature matrix correspond to observations from the clinical keratoconus group}
 #' }
 #' @references
-#' \insertRef{smaga2019linear}{NRAHDLTP}
+#' \insertRef{smaga2019linear}{HDnra}
 
 #' @concept data
 #' @examples
-#' library(NRAHDLTP)
+#' library(HDnra)
 #' data(corneal)
 #' dim(corneal)
 #' group1 <- as.matrix(corneal[1:43, ])

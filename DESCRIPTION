@@ -1,6 +1,6 @@
 Package: HDNRA
 Type: Package
-Title: An R package for high-dimensional location testing with normal-reference approaches
+Title: An R package for High-Dimensional Location Testing with Normal-Reference Approaches
 Version: 1.0.0
 Authors@R: c(person("Pengfei", "Wang", role = c("aut", "cre"),
                       email = "nie23.wp8738@e.ntu.edu.sg"), 

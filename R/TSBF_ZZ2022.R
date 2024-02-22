@@ -2,8 +2,8 @@
 #' @description
 #' Zhang and Zhu (2022)'s test for testing equality of two-sample high-dimensional mean vectors without assuming that two covariance matrices are the same.
 #' @usage tsbf_zz2022(y1, y2)
-#' @param y1 The data matrix (p by n1) from the first population. Each column represents a \eqn{p}-dimensional sample.
-#' @param y2 The data matrix (p by n2) from the first population. Each column represents a \eqn{p}-dimensional sample.
+#' @param y1 The data matrix (p by n1) from the first population. Each column represents a \eqn{p}-dimensional observation.
+#' @param y2 The data matrix (p by n2) from the first population. Each column represents a \eqn{p}-dimensional observation.
 #
 #' @details
 #' Suppose we have two independent high-dimensional samples:
@@ -14,7 +14,7 @@
 #' The primary object is to test
 #' \deqn{H_{0}: \boldsymbol{\mu}_1 = \boldsymbol{\mu}_2\; \operatorname{versus}\; H_{1}: \boldsymbol{\mu}_1 \neq \boldsymbol{\mu}_2.}
 #' Zhang and Zhu (2022) proposed the following test statistic:
-#' \deqn{T_{ZZ} =  \|\bar{\boldsymbol{y}}_1 - \bar{\boldsymbol{y}}_2\|^2-\operatorname{tr}(\hat{\boldsymbol{\Omega}}^*_n),}
+#' \deqn{T_{ZZ} =  \|\bar{\boldsymbol{y}}_1 - \bar{\boldsymbol{y}}_2\|^2-\operatorname{tr}(\hat{\boldsymbol{\Omega}}_n),}
 #' where  \eqn{\bar{\boldsymbol{y}}_{i},i=1,2} are the sample mean vectors and \eqn{\hat{\boldsymbol{\Omega}}_n} is the estimator of \eqn{\operatorname{Cov}(\bar{\boldsymbol{y}}_1-\bar{\boldsymbol{y}}_2)}.
 #' They showed that under the null hypothesis, \eqn{T_{ZZ}} and a chi-squared-type mixture have the same normal or non-normal limiting distribution.
 #'

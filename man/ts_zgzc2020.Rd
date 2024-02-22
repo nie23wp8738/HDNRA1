@@ -7,9 +7,9 @@
 ts_zgzc2020(y1, y2)
 }
 \arguments{
-\item{y1}{The data matrix (\eqn{p} by \eqn{n_1}) from the first population. Each column represents a \eqn{p}-dimensional sample.}
+\item{y1}{The data matrix (\eqn{p} by \eqn{n_1}) from the first population. Each column represents a \eqn{p}-dimensional observation.}
 
-\item{y2}{The data matrix (\eqn{p} by \eqn{n_2}) from the first population. Each column represents a \eqn{p}-dimensional sample.}
+\item{y2}{The data matrix (\eqn{p} by \eqn{n_2}) from the first population. Each column represents a \eqn{p}-dimensional observation.}
 }
 \value{
 A  (list) object of  \code{S3} class \code{htest}  containing the following elements:

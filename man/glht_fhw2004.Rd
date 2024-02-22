@@ -2,7 +2,7 @@
 % Please edit documentation in R/GLHT_FHW2004.R
 \name{glht_fhw2004}
 \alias{glht_fhw2004}
-\title{Test for proposed by Fujikoshi et al. (2004)}
+\title{Test proposed by Fujikoshi et al. (2004)}
 \usage{
 glht_fhw2004(Y,X,C)
 }

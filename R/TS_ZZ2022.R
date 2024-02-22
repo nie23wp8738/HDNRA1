@@ -2,8 +2,8 @@
 #' @description
 #' Zhang and Zhu (2022)'s test for testing equality of two-sample high-dimensional mean vectors with assuming that two covariance matrices are the same.
 #' @usage ts_zz2022(y1, y2)
-#' @param y1 The data matrix (\eqn{p} by \eqn{n_1}) from the first population. Each column represents a \eqn{p}-dimensional sample.
-#' @param y2 The data matrix (\eqn{p} by \eqn{n_2}) from the first population. Each column represents a \eqn{p}-dimensional sample.
+#' @param y1 The data matrix (\eqn{p} by \eqn{n_1}) from the first population. Each column represents a \eqn{p}-dimensional observation.
+#' @param y2 The data matrix (\eqn{p} by \eqn{n_2}) from the first population. Each column represents a \eqn{p}-dimensional observation.
 #' @details
 #'  Suppose we have two independent high-dimensional samples:
 #' \deqn{

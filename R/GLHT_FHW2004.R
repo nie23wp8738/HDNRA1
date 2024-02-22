@@ -1,4 +1,4 @@
-#' @title Test for proposed by Fujikoshi et al. (2004)
+#' @title Test proposed by Fujikoshi et al. (2004)
 #' @description
 #' Fujikoshi et al. (2004)'s test for general linear hypothesis testing (GLHT) problem for high-dimensional data with assuming that underlying covariance matrices are the same.
 #'

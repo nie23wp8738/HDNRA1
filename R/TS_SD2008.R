@@ -3,8 +3,8 @@
 #' Srivastava and Du (2008)'s test for testing equality of two-sample high-dimensional mean vectors with assuming that two covariance matrices are the same.
 
 #' @usage ts_sd2008(y1, y2)
-#' @param y1 The data matrix (p by n1) from the first population. Each column represents a \eqn{p}-dimensional sample.
-#' @param y2 The data matrix (p by n2) from the first population. Each column represents a \eqn{p}-dimensional sample.
+#' @param y1 The data matrix (p by n1) from the first population. Each column represents a \eqn{p}-dimensional observation.
+#' @param y2 The data matrix (p by n2) from the first population. Each column represents a \eqn{p}-dimensional observation.
 #'
 #' @details
 #' Suppose we have two independent high-dimensional samples:
@@ -14,8 +14,8 @@
 #' The primary object is to test
 #' \deqn{H_{0}: \boldsymbol{\mu}_1 = \boldsymbol{\mu}_2\; \operatorname{versus}\; H_{1}: \boldsymbol{\mu}_1 \neq \boldsymbol{\mu}_2.}
 #' Srivastava and Du (2008) proposed the following test statistic:
-#'  \deqn{T_{SD} = \frac{\frac{n_1n_2}{n_1+n_2}(\bar{\boldsymbol{y}}_1 - \bar{\boldsymbol{y}}_2)^\top \boldsymbol{D}_S^{-1}(\bar{\boldsymbol{y}}_1 - \bar{\boldsymbol{y}}_2) - \frac{(n_1+n_2-2)p}{n_1+n_2-4}}{\sqrt{2 \left[\operatorname{tr}(\boldsymbol{R}^2) - \frac{p^2}{n-2}\right] c_{p, n}}},}
-#' where \eqn{\bar{\boldsymbol{y}}_{i},i=1,2} are the sample mean vectors, \eqn{\boldsymbol{D}_S} is the diagonal matrix of sample variance, \eqn{\boldsymbol{R}} is the sample correlation matrix and \eqn{c_{p, n}} is the adjustment coefficient proposed by Srivastava and Du (2008).
+#'  \deqn{T_{SD} = \frac{n^{-1}n_1n_2(\bar{\boldsymbol{y}}_1 - \bar{\boldsymbol{y}}_2)^\top \boldsymbol{D}_S^{-1}(\bar{\boldsymbol{y}}_1 - \bar{\boldsymbol{y}}_2) - \frac{(n-2)p}{n-4}}{\sqrt{2 \left[\operatorname{tr}(\boldsymbol{R}^2) - \frac{p^2}{n-2}\right] c_{p, n}}},}
+#' where \eqn{\bar{\boldsymbol{y}}_{i},i=1,2} are the sample mean vectors,  \eqn{\boldsymbol{D}_S} is the diagonal matrix of sample variance, \eqn{\boldsymbol{R}} is the sample correlation matrix and \eqn{c_{p, n}} is the adjustment coefficient proposed by Srivastava and Du (2008).
 
 #' They showed that under the null hypothesis, \eqn{T_{SD}} is asymptotically normally distributed.
 

@@ -7,9 +7,9 @@
 tsbf_zzz2023(y1, y2, cutoff)
 }
 \arguments{
-\item{y1}{The data matrix (p by n1) from the first population. Each column represents a \eqn{p}-dimensional sample.}
+\item{y1}{The data matrix (p by n1) from the first population. Each column represents a \eqn{p}-dimensional observation.}
 
-\item{y2}{The data matrix (p by n2) from the first population. Each column represents a \eqn{p}-dimensional sample.}
+\item{y2}{The data matrix (p by n2) from the first population. Each column represents a \eqn{p}-dimensional observation.}
 
 \item{cutoff}{An empirical criterion for applying the adjustment coefficient}
 }

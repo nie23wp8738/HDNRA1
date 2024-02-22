@@ -7,7 +7,7 @@
 glhtbf_zzg2022(Y,G,n,p)
 }
 \arguments{
-\item{Y}{A list of \eqn{k} data matrices.  The \eqn{i}th element represents the data matrix (\eqn{p\times n_i}) from the \eqn{i}th population with each column representing a \eqn{p}-dimensional sample.}
+\item{Y}{A list of \eqn{k} data matrices.  The \eqn{i}th element represents the data matrix (\eqn{p\times n_i}) from the \eqn{i}th population with each column representing a \eqn{p}-dimensional observation.}
 
 \item{G}{A known full-rank coefficient matrix (\eqn{q\times k}) with \eqn{\operatorname{rank}(\boldsymbol{G})< k}.}
 
@@ -25,7 +25,7 @@ A  (list) object of  \code{S3} class \code{htest}  containing the following elem
 }
 }
 \description{
-Zhang et al. (2022)'s test for general lineral hypothesis testing (GLHT) problem for high-dimensional data under heteroscedasticity.
+Zhang et al. (2022)'s test for general linear hypothesis testing (GLHT) problem for high-dimensional data under heteroscedasticity.
 }
 \details{
 Suppose we have the following \eqn{k} independent high-dimensional samples:

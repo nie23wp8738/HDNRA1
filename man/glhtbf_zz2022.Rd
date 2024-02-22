@@ -7,7 +7,7 @@
 glhtbf_zz2022(Y,G,n,p)
 }
 \arguments{
-\item{Y}{A list of \eqn{k} data matrices.  The \eqn{i}th element represents the data matrix (\eqn{p\times n_i}) from the \eqn{i}th population with each column representing a \eqn{p}-dimensional sample.}
+\item{Y}{A list of \eqn{k} data matrices.  The \eqn{i}th element represents the data matrix (\eqn{p\times n_i}) from the \eqn{i}th population with each column representing a \eqn{p}-dimensional observation.}
 
 \item{G}{A known full-rank coefficient matrix (\eqn{q\times k}) with \eqn{\operatorname{rank}(\boldsymbol{G})< k}.}
 
@@ -26,7 +26,7 @@ A  (list) object of  \code{S3} class \code{htest}  containing the following elem
 }
 }
 \description{
-Zhang and Zhu (2022)'s test for general lineral hypothesis testing (GLHT) problem for high-dimensional data under heteroscedasticity.
+Zhang and Zhu (2022)'s test for general linear hypothesis testing (GLHT) problem for high-dimensional data under heteroscedasticity.
 }
 \details{
 Suppose we have the following \eqn{k} independent high-dimensional samples:
@@ -44,7 +44,7 @@ Zhang and Zhu (2022) proposed the following U-statistic based test statistic:
 \deqn{
 T_{ZZ}=\|\boldsymbol{C \hat{\mu}}\|^2-\sum_{i=1}^kh_{ii}\operatorname{tr}(\hat{\boldsymbol{\Sigma}}_i)/n_i,
 }
-where \eqn{\boldsymbol{C}=[(\boldsymbol{G D G}^\top)^{-1/2}\boldsymbol{G}]\otimes\boldsymbol{I}_p}, \eqn{\boldsymbol{D}=\operatorname{diag}(1/n_1,\ldots,1/n_k)}, and \eqn{h_{ij}} is the \eqn{(i,j)}th entry of the \eqn{k\times k} matrix \eqn{\boldsymbol{H}=\boldsymbol{G}^\top\boldsymbol{G}}.
+where \eqn{\boldsymbol{C}=[(\boldsymbol{G D G}^\top)^{-1/2}\boldsymbol{G}]\otimes\boldsymbol{I}_p}, \eqn{\boldsymbol{D}=\operatorname{diag}(1/n_1,\ldots,1/n_k)}, and \eqn{h_{ij}} is the \eqn{(i,j)}th entry of the \eqn{k\times k} matrix \eqn{\boldsymbol{H}=\boldsymbol{G}^\top(\boldsymbol{G}\boldsymbol{D}\boldsymbol{G}^\top)^{-1}\boldsymbol{G}}.
 }
 \examples{
 set.seed(1234)

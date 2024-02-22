@@ -7,9 +7,9 @@
 tsbf_zwz2023(y1, y2)
 }
 \arguments{
-\item{y1}{The data matrix (p by n1) from the first population. Each column represents a \eqn{p}-dimensional sample.}
+\item{y1}{The data matrix (p by n1) from the first population. Each column represents a \eqn{p}-dimensional observation.}
 
-\item{y2}{The data matrix (p by n2) from the first population. Each column represents a \eqn{p}-dimensional sample.}
+\item{y2}{The data matrix (p by n2) from the first population. Each column represents a \eqn{p}-dimensional observation.}
 }
 \value{
 A  (list) object of  \code{S3} class \code{htest}  containing the following elements:

@@ -7,9 +7,9 @@
 ts_zzz2020(y1, y2)
 }
 \arguments{
-\item{y1}{The data matrix (\eqn{p} by \eqn{n_1}) from the first population. Each column represents a \eqn{p}-dimensional sample.}
+\item{y1}{The data matrix (\eqn{p} by \eqn{n_1}) from the first population. Each column represents a \eqn{p}-dimensional observation.}
 
-\item{y2}{The data matrix (\eqn{p} by \eqn{n_2}) from the first population. Each column represents a \eqn{p}-dimensional sample.}
+\item{y2}{The data matrix (\eqn{p} by \eqn{n_2}) from the first population. Each column represents a \eqn{p}-dimensional observation.}
 }
 \value{
 A  (list) object of  \code{S3} class \code{htest}  containing the following elements:
@@ -30,7 +30,7 @@ Suppose we have two independent high-dimensional samples:
 The primary object is to test
 \deqn{H_{0}: \boldsymbol{\mu}_1 = \boldsymbol{\mu}_2\; \operatorname{versus}\; H_{1}: \boldsymbol{\mu}_1 \neq \boldsymbol{\mu}_2.}
 Zhang et al.(2020) proposed the following test statistic:
-\deqn{T_{ZZZ} = \frac{n_1n_2}{(n_1+n_2)p}(\bar{\boldsymbol{y}}_1 - \bar{\boldsymbol{y}}_2)^\top \hat{\boldsymbol{D}}^{-1}(\bar{\boldsymbol{y}}_1 - \bar{\boldsymbol{y}}_2),}
+\deqn{T_{ZZZ} = \frac{n_1n_2}{np}(\bar{\boldsymbol{y}}_1 - \bar{\boldsymbol{y}}_2)^\top \hat{\boldsymbol{D}}^{-1}(\bar{\boldsymbol{y}}_1 - \bar{\boldsymbol{y}}_2),}
 where \eqn{\bar{\boldsymbol{y}}_{i},i=1,2} are the sample mean vectors, \eqn{\hat{\boldsymbol{D}}} is the diagonal matrix of sample covariance matrix.
 They showed that under the null hypothesis, \eqn{T_{ZZZ}} and a chi-squared-type mixture have the same limiting distribution.
 }

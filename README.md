@@ -28,7 +28,7 @@ There are two real data sets in `HDNRA`:
 and
 [corneal](https://nie23wp8738.github.io/HDNRA/reference/corneal.html).
 
-Seven normal-reference tests for the two-sample Problem:
+Seven normal-reference tests for the two-sample problem:
 [ts_zgzc2020()](https://nie23wp8738.github.io/HDNRA/reference/ts_zgzc2020.html),
 [ts_zz2022()](https://nie23wp8738.github.io/HDNRA/reference/ts_zz2022.html),
 [ts_zzz2020()](https://nie23wp8738.github.io/HDNRA/reference/ts_zzz2020.html),
@@ -37,14 +37,14 @@ Seven normal-reference tests for the two-sample Problem:
 [tsbf_zzgz2021()](https://nie23wp8738.github.io/HDNRA/reference/tsbf_zzgz2021.html),
 [tsbf_zzz2023()](https://nie23wp8738.github.io/HDNRA/reference/tsbf_zzz2023.html).
 
-Five normal-reference tests for the GLHT Problem in `HDNRA`:
+Five normal-reference tests for the GLHT problem in `HDNRA`:
 [glht_zgz2017()](https://nie23wp8738.github.io/HDNRA/reference/glht_zgz2017.html),
 [glht_zz2022()](https://nie23wp8738.github.io/HDNRA/reference/glht_zz2022.html),
 [glht_zzz2022()](https://nie23wp8738.github.io/HDNRA/reference/glht_zzz2022.html),
 [glhtbf_zz2022()](https://nie23wp8738.github.io/HDNRA/reference/glhtbf_zz2022.html),
 [glhtbf_zzg2022()](https://nie23wp8738.github.io/HDNRA/reference/glhtbf_zzg2022.html).
 
-Four existing tests for the two-sample Problem in `HDNRA`:
+Four existing tests for the two-sample problem in `HDNRA`:
 [ts_bs1996()](https://nie23wp8738.github.io/HDNRA/reference/ts_bs1996.html),
 [ts_sd2008()](https://nie23wp8738.github.io/HDNRA/reference/ts_sd2008.html),
 [tsbf_cq2010()](https://nie23wp8738.github.io/HDNRA/reference/tsbf_cq2010.html),

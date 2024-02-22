@@ -57,11 +57,11 @@
     <div class="section level2">
     <h2 id="arguments">Arguments<a class="anchor" aria-label="anchor" href="#arguments"></a></h2>
     <dl><dt>y1</dt>
-<dd><p>The data matrix (\(p\) by \(n_1\)) from the first population. Each column represents a \(p\)-dimensional sample.</p></dd>
+<dd><p>The data matrix (\(p\) by \(n_1\)) from the first population. Each column represents a \(p\)-dimensional observation.</p></dd>
 
 
 <dt>y2</dt>
-<dd><p>The data matrix (\(p\) by \(n_2\)) from the first population. Each column represents a \(p\)-dimensional sample.</p></dd>
+<dd><p>The data matrix (\(p\) by \(n_2\)) from the first population. Each column represents a \(p\)-dimensional observation.</p></dd>
 
 </dl></div>
     <div class="section level2">
@@ -88,7 +88,7 @@ $$
 The primary object is to test
 $$H_{0}: \boldsymbol{\mu}_1 = \boldsymbol{\mu}_2\; \operatorname{versus}\; H_{1}: \boldsymbol{\mu}_1 \neq \boldsymbol{\mu}_2.$$
 Zhang et al.(2020) proposed the following test statistic:
-$$T_{ZZZ} = \frac{n_1n_2}{(n_1+n_2)p}(\bar{\boldsymbol{y}}_1 - \bar{\boldsymbol{y}}_2)^\top \hat{\boldsymbol{D}}^{-1}(\bar{\boldsymbol{y}}_1 - \bar{\boldsymbol{y}}_2),$$
+$$T_{ZZZ} = \frac{n_1n_2}{np}(\bar{\boldsymbol{y}}_1 - \bar{\boldsymbol{y}}_2)^\top \hat{\boldsymbol{D}}^{-1}(\bar{\boldsymbol{y}}_1 - \bar{\boldsymbol{y}}_2),$$
 where \(\bar{\boldsymbol{y}}_{i},i=1,2\) are the sample mean vectors, \(\hat{\boldsymbol{D}}\) is the diagonal matrix of sample covariance matrix.
 They showed that under the null hypothesis, \(T_{ZZZ}\) and a chi-squared-type mixture have the same limiting distribution.</p>
     </div>

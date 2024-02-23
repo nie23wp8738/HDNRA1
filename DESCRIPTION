@@ -46,4 +46,3 @@ Depends:
 LazyData: true
 Language: en-US
 Config/testthat/edition: 3
-VignetteBuilder: knitr
